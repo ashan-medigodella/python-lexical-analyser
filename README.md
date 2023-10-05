@@ -6,16 +6,16 @@
 
 The lexer function takes an input string and breaks it into a list of tokens. It supports the following token types:
 
-- INTEGER - a sequence of digits
-- PLUS - the '+' character
-- MINUS - the '-' character
-- MULTIPLY - the '\*' character
-- DIVIDE - the '/' character
-- LPAREN - a left parenthesis '('
-- RPAREN - a right parenthesis ')'
-- UNKNOWN - any other single character
-- END_OF_INPUT - marks end of input
-- It skips over any whitespace and extracts integers, operators, and parentheses as tokens.
+- `INTEGER` - a sequence of digits
+- `PLUS` - the '+' character
+- `MINUS` - the '-' character
+- `MULTIPLY` - the '\*' character
+- `DIVIDE` - the '/' character
+- `LPAREN` - a left parenthesis '('
+- `RPAREN` - a right parenthesis ')'
+- `UNKNOWN` - any other single character
+- `END_OF_INPUT` - marks end of input
+It skips over any whitespace and extracts integers, operators, and parentheses as tokens.
 
 ### Parser
 
